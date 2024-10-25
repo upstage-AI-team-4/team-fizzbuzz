@@ -2,7 +2,7 @@
 def fizzbuzz (count):
     for i in range(1, count+1):
         if i % 3 == 0:
-           print('fizz')
+           print(f'{i} - fizz')
         else:
             print(i)
 
